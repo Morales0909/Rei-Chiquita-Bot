@@ -40,7 +40,7 @@ global.vs = '2.0.7'
 global.vsJB = '5.0'
 global.nameqr = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚 𝐁𝐨𝐭-1.0'
 global.namebot = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚 𝐁𝐨𝐭-1.0'
-global.sessions = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚 Session'
+global.sessions = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚 𝐁𝐨𝐭 Session'
 global.jadi = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-𝐁𝐨𝐭'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -50,7 +50,7 @@ global.botname = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-𝐋𝐢𝐭𝐞'
 global.wm = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-𝐋𝐢𝐭𝐞 💙'
 global.author = '𝕄𝕒𝕕𝕖 𝕓𝕪 : 𝐌𝐨𝐫𝐚𝐥𝐞𝐬 👻'
 global.dev = '© ℙ𝕠𝕨𝕖𝕣𝕖𝕕 𝕓𝕪 𝐌𝐨𝐫𝐚𝐥𝐞𝐬'
-global.textbot = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚 : Morales 👻'
+global.textbot = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-𝐁𝐨𝐭 : Morales 👻'
 global.namebot = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-1.0'
 global.stickpack = `© ℙ𝕠𝕨𝕖𝕣𝕖𝕕 𝕓𝕪 𝐌𝐨𝐫𝐚𝐥𝐞𝐬`
 global.titulowm = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-𝐁𝐨𝐭'
