@@ -16,8 +16,8 @@ global.confirmCode = ''
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-   ['584241836217', 'Creador 👑', true],
-   ['50557865603', 'Owner 💛', true],
+   ['573007796996', 'Creador ♕', true],
+   ['50557865603', 'Owner ♡', true],
    ['', 'Owner ☁️', true],
    ['', 'Owner 🍭', true],
    [''],
@@ -38,30 +38,29 @@ global.libreria = 'Baileys'
 global.baileys = 'V 6.7.5'
 global.vs = '2.0.7'
 global.vsJB = '5.0'
-global.nameqr = 'Demon-2.2'
-global.namebot = 'Demon 2.2 ᰔᩚ'
-global.sessions = 'DemomSession'
-global.jadi = 'DemonJadiBot'
+global.nameqr = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚 𝐁𝐨𝐭-1.0'
+global.namebot = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚 𝐁𝐨𝐭-1.0'
+global.sessions = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚 Session'
+global.jadi = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-𝐁𝐨𝐭'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '⪛✰ Demon 2.0 - Ultra ✰⪜'
-global.botname = 'Demon-2.0'
-global.wm = 'Demon-Ultra 🩸'
-global.author = 'mᥲძᥱ ᑲᥡ : Prak.harper ☕'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Prak.harper'
-global.textbot = 'Demon 2.0 : prak.harper 🚀'
-global.namebot = 'Demon 2.0'
-global.stickpack = `© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Prak.harper`
-global.titulowm = '-☠︎︎༚̮ ⡞᪲=͟͟͞DemonBot-2.2 ≼᳞ׄ ᵎ ˚꙳꤬ꨪ'
-global.titulowm2 = '.‧·ீ੭ ¡ ᗃᮢ፝֟͡Demon B۵ᴛ el ᴍᴇᴊ꧔ʀ !˚̩̩̥͙°̩̥༅˚'
-global.igfg = '@usxr_Prakharper0'
-global.titu = '©️ ρσωε૨ ɓყ ɠαℓαאყ ƭεαɱ'
+global.packname = '༻𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-1.0 𝐋𝐢𝐭𝐞༺'
+global.botname = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-𝐋𝐢𝐭𝐞'
+global.wm = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-𝐋𝐢𝐭𝐞 💙'
+global.author = '𝕄𝕒𝕕𝕖 𝕓𝕪 : 𝐌𝐨𝐫𝐚𝐥𝐞𝐬 👻'
+global.dev = '© ℙ𝕠𝕨𝕖𝕣𝕖𝕕 𝕓𝕪 𝐌𝐨𝐫𝐚𝐥𝐞𝐬'
+global.textbot = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚 : Morales 👻'
+global.namebot = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-1.0'
+global.stickpack = `© ℙ𝕠𝕨𝕖𝕣𝕖𝕕 𝕓𝕪 𝐌𝐨𝐫𝐚𝐥𝐞𝐬`
+global.titulowm = '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-𝐁𝐨𝐭'
+global.titulowm2 = '♡𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚 𝐒𝐮𝐩𝐫𝐞𝐦𝐚𝐜𝐲♡'
+global.titu = '©️ ℙ𝕠𝕨𝕖𝕣𝕖𝕕 𝕓𝕪 𝐂𝐫𝐨𝐰'𝐬 𝐂𝐥𝐮𝐛👾'
 global.listo = '*Aqui tiene ฅ^•ﻌ•^ฅ*'
-global.vs = '2.0.7'
+global.vs = '1.0.0'
 global.namechannel = '𝑫𝒆𝒎𝒐𝒏-𝑩𝒐𝒕 - 𝑪𝒉𝒂𝒏𝒏𝒆𝒍'
-global.stickauth = `© Demon 2.2 By prakharper-OFC`
-global.dis = ':⁖֟⊱┈֟፝❥'
+global.stickauth = `© 𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-𝐁𝐨𝐭 𝕓𝕪 𝐌𝐨𝐫𝐚𝐥𝐞𝐬`
+global.dis = '✫✫✫✫✫'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
@@ -74,17 +73,17 @@ global.group2 = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
 global.canal = 'https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24'
 global.github = 'https://github.com/Prakharper/Demon-2.2.git' 
 global.instagram = 'https://www.instagram.com/harperprak' 
-global.whatsApp = 'https://wa.me/584241836217'
+global.whatsApp = 'https://wa.me/573007796996'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'ᰔᩚ 𝙳𝙴𝙼𝙾𝙽 ᥕһᥲ𝗍sᥲ⍴⍴ ᑲ᥆𝗍', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}};
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-𝐁𝐨𝐭', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}};
 
-global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'DemonBot-2.2', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𖥔.𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝𝐨❞ ꔷ──᜔◇⃟̣̣⃕✨', jpegThumbnail: catalogo }}};
+global.fakegif2 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-𝐁𝐨𝐭', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '♡𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝@♡', jpegThumbnail: catalogo }}};
 
-global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'DemonBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝙳 𝙴 𝙼 𝙾 𝙽 ☠︎︎', jpegThumbnail: catalogo }}};
+global.fakegif3 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-𝐁𝐨𝐭', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-𝐁𝐨𝐭', jpegThumbnail: catalogo }}};
 
-global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: 'DemonBot-MD', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '⚘݄𖠵⃕⁖𝐒𝐭𝐢𝐜𝐤𝐞𝐫 (^_^♪) 🩸', jpegThumbnail: catalogo }}};
+global.fakegif4 = { key: { participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { videoMessage: { title: '𝐑𝐞𝐢𝐂𝐡𝐢𝐪𝐮𝐢𝐭𝐚-𝐁𝐨𝐭', h: `Hmm`, seconds: '99999', gifPlayback: true, caption: '𝐒𝐭𝐢𝐜𝐤𝐞𝐫 ♡', jpegThumbnail: catalogo }}};
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
