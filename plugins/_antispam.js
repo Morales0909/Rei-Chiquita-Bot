@@ -35,7 +35,7 @@ const timeDifference = currentTime - userData.lastMessageTime
 if (userData.antiBan === 1) {
 if (userData.message < 1) {
 userData.message++  
-motive = `᥀·࣭࣪̇˖⚔️◗ 𝙉𝙤 𝙝𝙖𝙜𝙖𝙨 𝙨𝙥𝙖𝙢.`
+motive = `⚔️ 𝙉𝙤 𝙝𝙖𝙜𝙖𝙨 𝙨𝙥𝙖𝙢.`
 await conn.reply(m.chat, motive, m, { mentions: [m.sender] })  
 user.messageSpam = motive
 }} else if (userData.antiBan === 2) {
