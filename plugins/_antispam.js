@@ -47,7 +47,7 @@ user.messageSpam = motive
 }} else if (userData.antiBan === 3) {
 if (userData.message3 < 1) {
 userData.message3++  
-motive = `᥀·࣭࣪̇˖👺◗ 𝙎𝙚𝙧𝙖𝙨 𝙚𝙡𝙞𝙢𝙞𝙣𝙖𝙙𝙤(𝙖) 𝙥𝙤𝙧 𝙝𝙖𝙘𝙚𝙧 𝙨𝙥𝙖𝙢.`
+motive = `👺 Que pndjo 𝙎𝙚𝙧𝙖𝙨 𝙚𝙡𝙞𝙢𝙞𝙣𝙖𝙙𝙤(𝙖) 𝙥𝙤𝙧 𝙝𝙖𝙘𝙚𝙧 𝙨𝙥𝙖𝙢.`
 await conn.reply(m.chat, motive, m, { mentions: [m.sender] }) 
 user.messageSpam = motive
 await conn.groupParticipantsUpdate(m.chat, [sender], 'remove')
