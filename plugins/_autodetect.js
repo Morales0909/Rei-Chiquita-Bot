@@ -8,13 +8,13 @@ let usuario = `@${m.sender.split`@`[0]}`
 let pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || 'https://qu.ax/QGAVS.jpg'  
 
 let nombre, foto, edit, newlink, status, admingp, noadmingp
-nombre = `*${usuario}*\n✨️ Ha cambiado el nombre del grupo\n\n🌻 Ahora el grupo se llama:\n*${m.messageStubParameters[0]}*`
-foto = `*${usuario}*\n🚩 Ha cambiado la imagen del grupo`
+nombre = `*${usuario}*\n✨️ Ha cambiado el nombre del grupo, Ojalá no se llame Nerv\n\n🌻 Ahora el grupo se llama:\n*${m.messageStubParameters[0]}*`
+foto = `*${usuario}*\n🚩 Ha cambiado la imagen del grupo, ojalá sea de evangelion`
 edit = `*${usuario}*\n🌺 Ha permitido que ${m.messageStubParameters[0] == 'on' ? 'solo admins' : 'todos'} puedan configurar el grupo`
-newlink = `🌸 El enlace del grupo ha sido restablecido por:\n*» ${usuario}*`
+newlink = `💙 El enlace del grupo ha sido restablecido por:\n*» ${usuario}*`
 status = `El grupo ha sido ${m.messageStubParameters[0] == 'on' ? '*cerrado 🔒*' : '*abierto 🔓*'} Por *${usuario}*\n\n💬 Ahora ${m.messageStubParameters[0] == 'on' ? '*solo admins*' : '*todos*'} pueden enviar mensaje`
-admingp = `*@${m.messageStubParameters[0].split`@`[0]}* Ahora es admin del grupo 🥳\n\n💫 Acción hecha por:\n*» ${usuario}*`
-noadmingp =  `*@${m.messageStubParameters[0].split`@`[0]}* Deja de ser admin del grupo 😿\n\n💫 Acción hecha por:\n*» ${usuario}*`
+admingp = `*@${m.messageStubParameters[0].split`@`[0]}* Ahora es admin del grupo pd: si vió Evangelion 🥳\n\n💫 Acción hecha por:\n*» ${usuario}*`
+noadmingp =  `*@${m.messageStubParameters[0].split`@`[0]}* Deja de ser admin del grupo pd: no vió Evangelion 😿\n\n💫 Acción hecha por:\n*» ${usuario}*`
 
 if (chat.detect && m.messageStubType == 21) {
 await conn.sendMessage(m.chat, { text: nombre, mentions: [m.sender] }, { quoted: fkontak })   
