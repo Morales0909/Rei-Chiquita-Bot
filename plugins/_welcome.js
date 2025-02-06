@@ -44,7 +44,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
   };
 
   if (chat.welcome && m.messageStubType == 27) {
-    let bienvenida = `💙 *Se unió* al grupo *${groupMetadata.subject.trim()}*\n     ㌃ @${m.messageStubParameters[0].split`@`[0]} \n\n  Bienvenido al grupo amiguito. Espero que disfrutes de tu estadía aquí y te animes a ver Evangelion UwU, no seas sensible o vas fuera.\n\n> > ✐ No olvides usar *#help* si necesitas algo.\n> 🜸 ¡Disfruta de tu tiempo con nosotros!`;
+    let bienvenida = `💙 *Se unió* al grupo *${groupMetadata.subject.trim()}*\n     ㌃ @${m.messageStubParameters[0].split`@`[0]} \n\n  Bienvenido al grupo amiguito. Espero que disfrutes de tu estadía aquí y te animes a ver Evangelion UwU, recuerda leer las reglas y portate bien.\n\n> > ✐ No olvides usar *#help* si necesitas algo.\n> 🜸 ¡Disfruta de tu tiempo con nosotros!`;
 
     let img = await generateImage(
       '¡BIENVENIDO!',
