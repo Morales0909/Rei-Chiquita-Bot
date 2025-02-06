@@ -13,7 +13,7 @@ const {
 } = (await import("@whiskeysockets/baileys")).default;
 
 let handler = async (m, { command, conn, usedPrefix }) => {
-  await m.react('🕒');
+  await m.react('⏳');
 
   try {
     // Fetch the JSON data from the URL
@@ -21,7 +21,7 @@ let handler = async (m, { command, conn, usedPrefix }) => {
 
     // Ensure the array contains items
     if (!Array.isArray(res) || res.length === 0) {
-      throw new Error('No se encontraron imágenes');
+      throw new Error('No se encontraron imágenes 😔');
     }
 
     // Function to shuffle an array
