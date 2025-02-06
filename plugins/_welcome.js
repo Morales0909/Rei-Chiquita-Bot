@@ -1,5 +1,5 @@
 /* 
-- Código Creado y modificado por Prak-harper
+- Código Creado y modificado por Morales
 - Welcome con imagen Card
 - https://whatsapp.com/channel/0029Vb03dv95a23v1gG0gT24
 */
@@ -44,7 +44,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
   };
 
   if (chat.welcome && m.messageStubType == 27) {
-    let bienvenida = `🩸 *Se unió* al grupo *${groupMetadata.subject.trim()}*\n     ㌃ @${m.messageStubParameters[0].split`@`[0]} \n\n    愛 ────㌃ Bienvenido al infierno. Esperamos que tengas una estadía amena dentro de las profundidades del inframundo, no seas sensible o vas fuera.\n\n> > ✐ No olvides usar *#help* si necesitas algo.\n> 🜸 ¡Disfruta de tu tiempo con nosotros!`;
+    let bienvenida = `💙 *Se unió* al grupo *${groupMetadata.subject.trim()}*\n     ㌃ @${m.messageStubParameters[0].split`@`[0]} \n\n  Bienvenido al grupo amiguito. Espero que disfrutes de tu estadía aquí y te animes a ver Evangelion UwU, no seas sensible o vas fuera.\n\n> > ✐ No olvides usar *#help* si necesitas algo.\n> 🜸 ¡Disfruta de tu tiempo con nosotros!`;
 
     let img = await generateImage(
       '¡BIENVENIDO!',
@@ -55,7 +55,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
   }
 
   if (chat.welcome && m.messageStubType == 28) {
-    let bye = `🩸 *Se salió* del grupo   *${groupMetadata.subject.trim()}*\n  ㌃ @${m.messageStubParameters[0].split`@`[0]}\n\n    愛 ────㌃ Un inútil más que se sale del grupo, esperemos nunca vuelva.\n\n> ✐ No olvides usar *#help* si necesitas algo.\n> 🜸 No eres bienvenido.`;
+    let bye = `💙 *Se salió* del grupo   *${groupMetadata.subject.trim()}*\n  ㌃ @${m.messageStubParameters[0].split`@`[0]}\n\n   Un pendejo más que no le supo a Evangelion, esperemos nunca vuelva UnU.\n\n> ✐ No olvides usar *#help* si necesitas algo.\n> 🜸 No eres bienvenid@.`;
 
     let img = await generateImage(
       '¡ADIOS!',
@@ -66,7 +66,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
   }
 
   if (chat.welcome && m.messageStubType == 32) {
-    let kick = `🩸 *Se salió*  del grupo  *${groupMetadata.subject.trim()}*\n    ㌃@${m.messageStubParameters[0].split`@`[0]}\n\n   愛 ────㌃ Un inútil más que se sale del grupo, esperemos nunca vuelva.\n\n> ✐ No olvides usar *#help* si necesitas algo.\n> 🜸 No eres bienvenido.`;
+    let kick = `💙 *Se salió*  del grupo  *${groupMetadata.subject.trim()}*\n    ㌃@${m.messageStubParameters[0].split`@`[0]}\n\n    Un pendejo más que no le supo a Evangelion, esperemos nunca vuelva UnU.\n\n> ✐ No olvides usar *#help* si necesitas algo.\n> 🜸 No eres bienvenido.`;
 
     let img = await generateImage(
       '¡ADIOS!',
