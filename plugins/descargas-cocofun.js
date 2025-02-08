@@ -7,7 +7,7 @@ let handler = async (m, { text, conn, args, usedPrefix, command }) => {
     }
     
     try {
-        await m.react('🕒') 
+        await m.react('⏳') 
         let api = await fetch(`https://api.agatz.xyz/api/cocofundl?url=${args[0]}`)
         let json = await api.json()
         let { title, description, image, video, topic, caption, play, like, share, duration, thumbnail, watermark, no_watermark } = json.data
