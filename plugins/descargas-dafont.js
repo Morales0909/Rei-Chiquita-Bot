@@ -49,7 +49,7 @@ async function descargarFuente(urlZip) {
         return rutaArchivo;
     } catch (error) {
         console.error("Error al descargar la fuente:", error.message);
-        throw new Error("Error al descargar la fuente.");
+        throw new Error("😞 Error al descargar la fuente.");
     }
 }
 
