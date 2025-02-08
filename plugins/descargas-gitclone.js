@@ -12,7 +12,7 @@ let handler = async (m, { args, usedPrefix, command }) => {
   let sanitizedRepo = repo.replace(/.git$/, '')
   let repoUrl = `https://api.github.com/repos/${user}/${sanitizedRepo}`
   let zipUrl = `https://api.github.com/repos/${user}/${sanitizedRepo}/zipball`
-  await m.react('🕓')
+  await m.react('⏳')
   try {
     let [repoResponse, zipResponse] = await Promise.all([
       fetch(repoUrl),
