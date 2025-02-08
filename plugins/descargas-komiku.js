@@ -11,8 +11,8 @@ const handler = async (m, { text, conn }) => {
     const targetUrl = text.trim();
 
     try {
-        m.reply("🔄 Descargando imágenes, por favor espera...");
-  await m.react('🕓')
+        m.reply("🗳️ Descargando imágenes, por favor espera...");
+  await m.react('⏳')
 
         const response = await axios.get(targetUrl, {
             headers: {
