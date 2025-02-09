@@ -2,10 +2,10 @@ import fetch from 'node-fetch';
 
 let handler = async (m, { conn, command, text, usedPrefix }) => {
   if (!text) {
-    return conn.reply(m.chat, '[ ᰔᩚ ] Ingresa el nombre o palabra clave para buscar en *Spotify*.\n\n' + `Ejemplo:\n> *${usedPrefix + command}* Ozuna`, m,rcanal);
+    return conn.reply(m.chat, '🤓☝🏻 Ingresa el nombre o palabra clave para buscar en *Spotify*.\n\n' + `Ejemplo:\n> *${usedPrefix + command}* Ozuna`, m,rcanal);
   }
 
-  await m.react('🕓');
+  await m.react('⏳');
 
   try {
     let apiSearch = await fetch(`https://api.vreden.web.id/api/spotifysearch?query=${encodeURIComponent(text)}`);
