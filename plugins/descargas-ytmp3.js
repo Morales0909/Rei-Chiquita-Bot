@@ -3,17 +3,17 @@ import fetch from 'node-fetch';
 let handler = async (m, { conn, text }) => {
   if (!text) {
     await m.react('✖️');
-    throw '☁️ Ingresa un enlace de YouTube.';
+    throw '🤓☝🏻 Ingresa un enlace de YouTube.';
   }
 
   const ytRegex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)\/.+$/;
   if (!ytRegex.test(text)) {
     await m.react('❌');
-    throw '☁️ Ingresa un enlace válido de YouTube.';
+    throw '🤓☝🏻 Ingresa un enlace válido de YouTube.';
   }
 
   try {
-    await m.react('🕒');
+    await m.react('⏳');
 
     let videoId = text.split('v=')[1]?.split('&')[0] || text.split('/').pop();
     let apiURL = `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${videoId}&format=json`;
@@ -70,11 +70,11 @@ export default handler;
 let handler = async (m, { conn, text }) => {
     if (!text) {
         await m.react('✖️');
-        return conn.reply(m.chat, `☁️ Ingresa un enlace de YouTube.`, m, fake);
+        return conn.reply(m.chat, `🤓☝🏻 Ingresa un enlace de YouTube.`, m, fake);
     }
 
     try {
-        await m.react('🕒');
+        await m.react('⏳');
 
         let api = await fetch(`https://restapi.apibotwa.biz.id/api/ytmp3?url=${text}`);
         let json = await api.json();
@@ -83,7 +83,7 @@ let handler = async (m, { conn, text }) => {
             await m.react('❌');
             return conn.reply(
                 m.chat,
-                `《❌》No se pudo obtener el enlace de descarga. Verifica el enlace y vuelve a intentarlo.`,
+                `😞 No se pudo obtener el enlace de descarga. Verifica el enlace y vuelve a intentarlo.`,
                 m
             );
         }
@@ -108,7 +108,7 @@ let handler = async (m, { conn, text }) => {
         await m.react('❌');
         conn.reply(
             m.chat,
-            `《❌》Ocurrió un error al intentar descargar el audio. Por favor, verifica el enlace e inténtalo nuevamente.`,
+            `😞 Ocurrió un error al intentar descargar el audio. Por favor, verifica el enlace e inténtalo nuevamente.`,
             m
         );
     }
