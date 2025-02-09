@@ -2,9 +2,9 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
-if (!text) return conn.reply(m.chat, `🤍 Ingrese el nombre de la cancion de *Soundcloud.*`, m, fake)
+if (!text) return conn.reply(m.chat, `🤓☝🏻 Ingrese el nombre de la cancion de *Soundcloud.*`, m, fake)
 
-await m.react('🕒');
+await m.react('⏳');
 try {
 let api = await fetch(`https://apis-starlights-team.koyeb.app/starlight/soundcloud-search?text=${encodeURIComponent(text)}`);
 let json = await api.json();
