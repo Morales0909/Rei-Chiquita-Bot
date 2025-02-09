@@ -3,11 +3,11 @@ import fetch from "node-fetch"
 let handler = async (m, { text, conn, args, usedPrefix, command }) => {
     if (!args[0]) {
         await m.react('✖️')
-        return conn.reply(m.chat, '☁️ Ingresa un enlace de videy.', m, fake);
+        return conn.reply(m.chat, '🤓☝🏻 Ingresa un enlace de videy.', m, fake);
     }
 
     try {
-        await m.react('🕑')
+        await m.react('⏳')
         let api = await fetch(`https://api.agatz.xyz/api/videydl?url=${args[0]}`)
         let json = await api.json()
         let { data } = json
