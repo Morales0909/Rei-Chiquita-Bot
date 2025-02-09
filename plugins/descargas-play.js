@@ -8,13 +8,13 @@ import yts from 'yt-search';
 let handler = async (m, { conn, args }) => {
   if (!args[0]) return conn.reply(m.chat, '*\`Ingresa el nombre de lo que quieres buscar\`*', m);
 
-  await m.react('🕓');
+  await m.react('⏳');
   try {
     let res = await search(args.join(" "));
     let video = res[0];
     let img = await (await fetch(video.image)).buffer();
 
-    let txt = `> *YouTube Play 🍧.*\n\n`;
+    let txt = `> *YouTube Play 🤌🏻.*\n\n`;
     txt += `${video.title}\n\n`;
     txt += `• *Duración:* ${secondString(video.duration.seconds)}\n`;
     txt += `• *Autor:* ${video.author.name || 'Desconocido'}\n`;
