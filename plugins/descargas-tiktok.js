@@ -7,7 +7,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   }
 
   try {
-    await m.react('🕒');
+    await m.react('⏳');
 
     const videoResult = await ttsave.video(text);
     const { 
@@ -21,7 +21,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     } = videoResult;
 
     let message = `
-📛 *Nombre*: ${nickname || "-"}
+👤 *Nombre*: ${nickname || "-"}
 🆔 *Usuario*: ${username || "-"}
 📝 *Descripción*: ${description || "-"}
 `.trim();
@@ -70,7 +70,7 @@ await conn.sendMessage(m.chat, {
     }
   } catch (error) {
     console.error(error);
-    conn.reply(m.chat, `Ocurrió un error al procesar la solicitud. Asegúrate de que el enlace de TikTok sea válido e inténtalo nuevamente.`, m);
+    conn.reply(m.chat, `😞 Ocurrió un error al procesar la solicitud. Asegúrate de que el enlace de TikTok sea válido e inténtalo nuevamente.`, m);
   }
 };
 
