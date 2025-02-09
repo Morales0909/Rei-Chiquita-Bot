@@ -134,7 +134,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     }
   };
 
-  conn.sendMessage(m.chat, { react: { text: "🕒", key: m.key } });
+  conn.sendMessage(m.chat, { react: { text: "⏳", key: m.key } });
 
   const searchResults = await appleMusic.search(text);
   if (!searchResults.length) {
