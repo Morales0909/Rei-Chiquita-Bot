@@ -5,7 +5,7 @@
 import axios from 'axios';
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text) return m.reply(`Ejemplo:\n${usedPrefix + command} https://terabox.com/s/1kReYr_2pyxLZ2c2kEAHF3A`);
-await m.react('🕓')
+await m.react('⏳')
   try {
     const result = await terabox(text);
     if (!result.length) return m.reply('ingresa un url válido.');
